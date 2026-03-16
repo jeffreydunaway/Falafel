@@ -1,0 +1,111 @@
+# Falafel Company — Paperclip Orchestration Layer
+# See: https://github.com/paperclipai/paperclip
+#
+# This file defines the Falafel AI company structure for the Paperclip
+# company orchestration layer. Replace all YOUR_REAL_* placeholders with
+# actual values after deployment.
+
+company:
+  name: Falafel
+  description: >
+    An autonomous, perpetual AI company that executes compliant Real-World
+    Asset (RWA) tokenization, invoice financing, securities tokenization,
+    and DeFi yield strategies on Avalanche C-Chain.
+  website: https://falafel.work
+  chain: avalanche-fuji          # switch to avalanche-mainnet post-audit
+  chain_id: 43113
+  token:
+    symbol: $FALAFEL
+    launch_chain: base           # launched via Virtuals Protocol on Base
+    bridge: chainlink-ccip       # bridged to Avalanche via CCIP (Phase 2+)
+
+contracts:
+  rwa_compliance_token: YOUR_REAL_RWA_COMPLIANCE_TOKEN_ADDRESS
+  agentic_commerce:     YOUR_REAL_AGENTIC_COMMERCE_ADDRESS
+  rat_agents:           YOUR_REAL_RAT_AGENTS_ADDRESS
+
+employees:
+  - id: 1
+    name: Compliance Rat
+    role: KYC/AML checks and whitelist management
+    nft_token_id: 1
+    tba: YOUR_REAL_RAT_1_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_1_ALEPH_VM_HASH
+
+  - id: 2
+    name: Yield Rat
+    role: Trader Joe LP + Aave yield optimization
+    nft_token_id: 2
+    tba: YOUR_REAL_RAT_2_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_2_ALEPH_VM_HASH
+
+  - id: 3
+    name: RWA Issuance Rat
+    role: Real-world asset tokenization
+    nft_token_id: 3
+    tba: YOUR_REAL_RAT_3_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_3_ALEPH_VM_HASH
+
+  - id: 4
+    name: Invoice Rat
+    role: Invoice financing workflows
+    nft_token_id: 4
+    tba: YOUR_REAL_RAT_4_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_4_ALEPH_VM_HASH
+
+  - id: 5
+    name: Securities Rat
+    role: Securities tokenization compliance
+    nft_token_id: 5
+    tba: YOUR_REAL_RAT_5_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_5_ALEPH_VM_HASH
+
+  - id: 6
+    name: DevOps Rat
+    role: GCP VM management and CI/CD
+    nft_token_id: 6
+    tba: YOUR_REAL_RAT_6_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_6_ALEPH_VM_HASH
+
+  - id: 7
+    name: Frontend Rat
+    role: falafel.work dashboard updates
+    nft_token_id: 7
+    tba: YOUR_REAL_RAT_7_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_7_ALEPH_VM_HASH
+
+  - id: 8
+    name: Orchestrator Rat
+    role: Rat team ERC-8183 coordination
+    nft_token_id: 8
+    tba: YOUR_REAL_RAT_8_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_8_ALEPH_VM_HASH
+
+  - id: 9
+    name: Analytics Rat
+    role: On-chain metrics and reporting
+    nft_token_id: 9
+    tba: YOUR_REAL_RAT_9_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_9_ALEPH_VM_HASH
+
+  - id: 10
+    name: Revenue Rat
+    role: Revenue split tracking and claims
+    nft_token_id: 10
+    tba: YOUR_REAL_RAT_10_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_10_ALEPH_VM_HASH
+
+  - id: 11
+    name: Research Rat
+    role: DeFi/RWA trend research
+    nft_token_id: 11
+    tba: YOUR_REAL_RAT_11_TBA_ADDRESS
+    aleph_vm: YOUR_REAL_RAT_11_ALEPH_VM_HASH
+
+orchestration:
+  framework: paperclip
+  job_protocol: erc-8183
+  job_escrow: YOUR_REAL_AGENTIC_COMMERCE_ADDRESS
+  state_file: .rat_state.json
+
+phase: 1

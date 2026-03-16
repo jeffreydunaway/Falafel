@@ -1,0 +1,30 @@
+# Falafel .gitignore
+
+# ---- Foundry build artifacts --------------------------------
+out/
+cache/
+broadcast/
+
+# ---- Environment secrets ------------------------------------
+.env
+
+# ---- Python -------------------------------------------------
+__pycache__/
+*.py[cod]
+*.pyc
+.venv/
+venv/
+.eggs/
+*.egg-info/
+dist/
+build/
+
+# ---- State files (contain runtime secrets/hashes) ----------
+.rat_state.json
+
+# ---- OS / IDE -----------------------------------------------
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
